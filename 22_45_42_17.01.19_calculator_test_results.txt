@@ -1,0 +1,140 @@
+...F.F.FFFFF..F....FF....FFF...F.F..
+======================================================================
+FAIL: test_combination_of_division_and_subtraction (__main__.CalculatorTests)
+Check 8 / 2 - 6 = -2
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:/Users/Ирина/PycharmProjects/calc/calculat.py", line 187, in test_combination_of_division_and_subtraction
+    self.assertEqual(self.display(), str(result))
+AssertionError: u'2' != '-2'
+
+======================================================================
+FAIL: test_combination_of_multiplication_and_subtraction (__main__.CalculatorTests)
+Check 1 x 2 - 4 = -2
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:/Users/Ирина/PycharmProjects/calc/calculat.py", line 173, in test_combination_of_multiplication_and_subtraction
+    self.assertEqual(self.display(), str(result))
+AssertionError: u'-3' != '-2'
+
+======================================================================
+FAIL: test_combination_of_subtraction_and_division (__main__.CalculatorTests)
+Check 8 - 4 / 2 = 6
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:/Users/Ирина/PycharmProjects/calc/calculat.py", line 180, in test_combination_of_subtraction_and_division
+    self.assertEqual(self.display(), str(result))
+AssertionError: u'-2' != '6'
+
+======================================================================
+FAIL: test_combination_of_subtraction_and_multiplication (__main__.CalculatorTests)
+Check 4 - 1 x 2 = 2
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:/Users/Ирина/PycharmProjects/calc/calculat.py", line 166, in test_combination_of_subtraction_and_multiplication
+    self.assertEqual(self.display(), str(result))
+AssertionError: u'-2' != '2'
+
+======================================================================
+FAIL: test_combination_of_summation_and_division (__main__.CalculatorTests)
+Check 1 + 4 / 2 = 3
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:/Users/Ирина/PycharmProjects/calc/calculat.py", line 152, in test_combination_of_summation_and_division
+    self.assertEqual(self.display(), str(result))
+AssertionError: u'2.5' != '3'
+
+======================================================================
+FAIL: test_combination_of_summation_and_multiplication (__main__.CalculatorTests)
+Check 1 + 3 x 2 = 7
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:/Users/Ирина/PycharmProjects/calc/calculat.py", line 138, in test_combination_of_summation_and_multiplication
+    self.assertEqual(self.display(), str(result))
+AssertionError: u'8' != '7'
+
+======================================================================
+FAIL: test_combination_of_summation_and_subtraction (__main__.CalculatorTests)
+Check 1 + 3 - 2 = 2
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:/Users/Ирина/PycharmProjects/calc/calculat.py", line 131, in test_combination_of_summation_and_subtraction
+    self.assertEqual(self.display(), str(result))
+AssertionError: u'-1' != '2'
+
+======================================================================
+FAIL: test_complicated_subtraction (__main__.CalculatorTests)
+Check 115 - 25 - 15 = 75
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:/Users/Ирина/PycharmProjects/calc/calculat.py", line 82, in test_complicated_subtraction
+    self.assertEqual(self.display(), str(result))
+AssertionError: u'-15' != '75'
+
+======================================================================
+FAIL: test_insert_float_with_zero_in_the_beginning (__main__.CalculatorTests)
+Check inserting float with zero in the beginning 0.123456789
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:/Users/Ирина/PycharmProjects/calc/calculat.py", line 96, in test_insert_float_with_zero_in_the_beginning
+    self.assertEqual(self.display(), str(result))
+AssertionError: u'0.12345678900000001' != '0.123456789'
+
+======================================================================
+FAIL: test_insert_float_without_zero_in_the_beginning (__main__.CalculatorTests)
+Check inserting float without zero in the beginning 0.123456789
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:/Users/Ирина/PycharmProjects/calc/calculat.py", line 89, in test_insert_float_without_zero_in_the_beginning
+    self.assertEqual(self.display(), str(result))
+AssertionError: u'0.12345678900000001' != '0.123456789'
+
+======================================================================
+FAIL: test_negative_on_negative_division (__main__.CalculatorTests)
+Check - 4 / (- 2) = 2
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:/Users/Ирина/PycharmProjects/calc/calculat.py", line 236, in test_negative_on_negative_division
+    self.assertEqual(self.display(), str(result))
+AssertionError: u'-6' != '2'
+
+======================================================================
+FAIL: test_negative_on_negative_multiplication (__main__.CalculatorTests)
+Check - 4 x (- 2) = 8
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:/Users/Ирина/PycharmProjects/calc/calculat.py", line 243, in test_negative_on_negative_multiplication
+    self.assertEqual(self.display(), str(result))
+AssertionError: u'-6' != '8'
+
+======================================================================
+FAIL: test_negative_subtraction (__main__.CalculatorTests)
+Check  - 2 - 4 = -6
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:/Users/Ирина/PycharmProjects/calc/calculat.py", line 208, in test_negative_subtraction
+    self.assertEqual(self.display(), str(result))
+AssertionError: u'-4' != '-6'
+
+======================================================================
+FAIL: test_simple_subtraction (__main__.CalculatorTests)
+Check 5 - 3 = 2
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:/Users/Ирина/PycharmProjects/calc/calculat.py", line 75, in test_simple_subtraction
+    self.assertEqual(self.display(), str(result))
+AssertionError: u'-3' != '2'
+
+======================================================================
+FAIL: test_subtraction_of_floats (__main__.CalculatorTests)
+Check 1.5 - 2.6 = -1.1
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:/Users/Ирина/PycharmProjects/calc/calculat.py", line 110, in test_subtraction_of_floats
+    self.assertEqual(self.display(), str(result))
+AssertionError: u'-2.6' != '-1.1'
+
+----------------------------------------------------------------------
+Ran 36 tests in 307.303s
+
+FAILED (failures=15)
