@@ -9,7 +9,7 @@ except ImportError as e:
     logger = None
 
 
-class Initialising(object):
+class Initializing(object):
 
     def __init__(self, driver):
         self.driver = driver
