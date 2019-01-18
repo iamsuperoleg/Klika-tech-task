@@ -4,7 +4,7 @@ from datetime import datetime
 
 try:
     from logger import logger
-    from initialising import Initialising
+    from initializing import Initializing
 except ImportError as e:
     print ("Error! {}. Check if file exists".format(e))
     Initialising = None
